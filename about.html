@@ -23,70 +23,78 @@
         <link rel="stylesheet" href="css/responsive.css">
     </head>
     <body class="dark">
-        <header class="header-area header-two">  
-			  <div class="menu-area">
-                <div class="container">
-                        <div class="row">
-                             <div class="col-xl-12 col-lg-12 text-center">
-                                <div class="logo mt-30 mb-30">
-                                    <a href="index.html"><img src="img/logo/RIVEROCK-WHITE.png" alt="logo"></a>
-                                </div>
-                            </div>
-                        </div>
+        <header class="header-area header">  
+            <div id="header-sticky" class="menu-area pl-100 pr-100">
+                <div class="container-fluid">
+                    <div class="second-menu">
                         <div class="row align-items-center">
-                             <div class="col-xl-2 col-lg-2">
-                                <div class="header-social">
-                                    <span>                                   
-                                        <a href="https://www.facebook.com/profile.php?id=61551644354915" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.instagram.com/riverock.event" title="Instagram"><i class="fab fa-instagram"></i></a>       
-                                       </span>                    
-                                       <!--  /social media icon redux -->                               
+                            <div class="col-xl-2 col-lg-2">
+                                <div class="logo">
+                                    <a href="index.html"><img src="img\logo\RIVEROCK-WHITE.png" alt="logo"></a>
                                 </div>
                             </div>
-                           <div class="col-xl-8 col-lg-8 text-center">
-                              
+                            <div class="col-xl-4 col-lg-4 col-md-6">
                                 <div class="main-menu">
                                     <nav id="mobile-menu">
-                                          <ul>
-                                            <li class="has-sub">
-                                                <a href="index.html">Home</a>
-                                            </li>
+                                        <ul>
+                                            <li><a href="index.html">Home</a></li> <!-- Home hanya satu, tidak ada submenu -->
                                             <li><a href="about.html">About Us</a></li>
-                                            <li><a href="about.html">Last Event</a></li>
-                                            <li><a href="about.html">Latar Belakang</a></li>
-                                            <li><a href="about.html">Artist</a></li>
-                                            <li><a href="index.html#rundown">Rundown</a></li>
-                                            <li><a href="index.html#layout">Venue</a></li>
-                                            <li><a href="index.html#rawBudget">Raw Budgeting</a></li>
-                                            <li><a href="index.html#about">Sponsorship</a></li>
-                                            <!-- <li class="has-sub"> 
-                                                <a href="blog.html">Blog</a>
-                                                <ul>
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                            <li class="has-sub"><a href="events.html">Events</a> <!-- Pages merujuk ke events.html -->
+                                                <ul>     
+                                                    <li><a href="venue.html">Venue</a></li> <!-- Subhalaman Venue -->
+                                                    <li><a href="raw-budget.html">Raw Budget</a></li> <!-- Subhalaman Raw Budget -->
                                                 </ul>
-                                            </li> -->
-                                            <li><a href="contact.html">Contact</a></li>                                               
+                                            </li>
+                                            <li><a href="sponsor.html">Sponsorship</a></li> <!-- Blog dirubah menjadi sponsorship -->
+                                            <li><a href="contact.html">Contact</a></li> <!-- Contact Us tetap -->
                                         </ul>
                                     </nav>
                                 </div>
                             </div>   
-                            <div class="col-xl-2 col-lg-2">
-                                <div class="header-social">
-                                    <span>                                                
-                                        <a href="https://www.tiktok.com/@riverock.project" title="Tiktok"><i class="fab fa-tiktok"></i></a>
-                                        <a href="https://www.youtube.com/@Riveofficiall" title="Youtube"><i class="fab fa-youtube"></i></a>
-                                    </span>                
-                                    <!--  /social media icon redux -->                               
-                                </div>
+                            <div class="col-xl-6 col-lg-6 text-right d-none d-lg-block text-right text-xl-right">
+                                <div class="header-cta">
+                                    <ul>
+                                        <li>
+                                            <div class="call-box">
+                                                <div class="sc">
+                                                    <a href="#">Fb.</a>
+                                                    <a href="#">Ln.</a><br>
+                                                    <a href="#">Tw.</a>
+                                                    <a href="#">Be.</a>
+                                                </div>                                            
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="call-box">                                            
+                                                <div class="text">
+                                                    Best Solution ForBusiness<br> Consulting Service                           
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="call-box">                                            
+                                                <div class="text">
+                                                    P: 0822 2228 2888<br> 
+                                                    E: rockamination@rive.co.id             
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="call-box">                          
+                                                <a href="#" class="menu-tigger"><img src="img/bg/toggle-menu.png" alt="logo"></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>                              
                             </div>
-                                <div class="col-12">
-                                    <div class="mobile-menu"></div>
-                                </div>
-                        </div>  
+                            <div class="col-12">
+                                <div class="mobile-menu"></div>
+                            </div>
+                        </div>                   
+                    </div>                   
                 </div>
             </div>
-        </header>
+        </header>   
         <!-- header-end -->
         <!-- main-area -->
         <main>
