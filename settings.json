@@ -1,3 +1,8 @@
 {
-    "editor.formatOnSave": true
-  }  
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "prettier.singleQuote": true,      // Menggunakan tanda kutip tunggal
+  "prettier.semi": false,            // Tidak menggunakan titik koma
+  "prettier.trailingComma": "none",  // Menghapus koma di akhir array
+  "prettier.tabWidth": 2             // Mengatur lebar indentasi menjadi 2 spasi
+}
